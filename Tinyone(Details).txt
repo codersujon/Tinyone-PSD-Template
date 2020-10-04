@@ -1,0 +1,35 @@
+The naming of all section:
+---------------------------------
+-> Header Section
+-> TinyOne Features
+-> Support Section
+-> Footer Section
+
+
+Template Size:
+---------------------------------
+->Container-fluid: 1400px
+->Container: 960px	 
+
+
+Image Collection: 
+---------------------------------
+Collect your image on description box
+
+Color:
+---------------------------------
+->Primary Color:   #fcdb00
+->Secondary Color: #010101
+
+->body font-color: #313841
+		   #555555
+		   #898989
+		   
+		   
+
+Fonts Collection & Download:
+---------------------------------
+HelveticalNeue Bold
+PTSans: @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+-> 
+->font-family: 'PT Sans', sans-serif;

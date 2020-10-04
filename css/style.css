@@ -1,0 +1,180 @@
+/*==========================================================
+    Abstract:
+          => This Framework has been written
+          => MD.SUJAN AHMED
+============================================================*/
+
+
+/*Start Framework*/
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+@font-face{
+  font-family: "HelveticaNeue";
+  src: url("../fonts/Helvetica-Neu-Bold.ttf");
+}
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+a, a:hover{
+  list-style-type: none;
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, a, ul, ol, button, input, p{
+  margin: 0;
+  padding: 0;
+  color:#010101;
+}
+
+body{
+  font-size: 17px;
+  color:#010101;
+  font-family: 'PT Sans', sans-serif;
+}
+.container{
+  max-width: 960px !important;
+}
+/*==========================================================
+    Background:-
+============================================================*/
+.bg-primary{
+  background-color: #fcdb00 !important;
+}
+.bg-secondary{
+  background-color: #000!important;
+}
+
+.text-primary{
+  color: #fcdb00 !important;
+}
+/*==========================================================
+    btn:-
+============================================================*/
+.btn {
+  color: #010101;
+  padding: 0.5rem 1.5rem;
+  margin-left: 10px;
+}
+.btn-warning {
+  color: #010101;
+  background-color: #fcdb00 ;
+  border-color: #fcdb00 ;
+}
+.btn-warning:hover {
+  background-color: #fcdb00 ;
+}
+.btn-warning:focus, .btn-warning:active{
+  border-color: #fcdb00;
+}
+/*==========================================================
+    Padding Section:-
+============================================================*/
+
+/*==========================================================
+    Margin:-
+============================================================*/
+
+/*End Framework*/
+
+
+
+
+
+/*==========================================================
+    Header Start
+============================================================*/
+header{
+  padding: 60px 0;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+  color:#010101;
+  font-size: 20px;
+  font-family: HelveticaNeue;
+}
+.navbar-light .navbar-nav .nav-link {
+  color:#010101;
+  font-size: 20px;
+  padding-left: 55px;
+  font-family: HelveticaNeue;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color:#010101;
+}
+.carousel-left h6{
+  color: #313841;
+  font-size: 19px;
+  margin-right: 160px;
+}
+.carousel-left p{
+  color: #555555;
+  margin-right: 113px;
+}
+.carousel-left i.fa{
+  font-size: 35px;
+  margin-right: 20px;
+}
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+/*End Header*/
+/*==========================================================
+    Tinyone Features Start
+============================================================*/
+.tinyone-features{
+  padding: 120px 0;
+}
+.features-info p{
+  color: #313841;
+  border-bottom: 1px solid #313841;
+  padding: 15px 136px;
+}
+.features-icon img{
+  position: absolute;
+}
+.features-icon .features-text{
+  position: relative;
+  margin-left: 79px;
+  margin-top: 70px;
+}
+.features-icon .features-text p{
+  color: #898989;
+  margin-top: 15px;
+}
+/*End Tinyone Features*/
+/*==========================================================
+    Support Start
+============================================================*/
+.support{
+  padding: 100px 0;
+}
+.support-info{
+  margin: 0 130px;
+}
+.support-info p{
+  color: #898989;
+}
+.support-social i.fa{
+  color: #fcdb00;
+  font-size: 40px;
+  padding: 0 10px;
+}
+/*End Support*/
+/*==========================================================
+    Footer Start
+============================================================*/
+footer{
+  padding-bottom: 70px ;
+}
+footer ul{
+  color: white;
+}
+footer ul li a{
+  color: white;
+}
+footer ul li a:hover{
+  color: #fcdb00;
+}
+/*End Footer*/
+
